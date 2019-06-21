@@ -7,9 +7,9 @@
 //
 
 import XCTest
-@testable import videocapture_test
+@testable import cv_template
 
-class videocapture_testTests: XCTestCase {
+class cv_templateTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

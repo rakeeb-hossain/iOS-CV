@@ -12,8 +12,8 @@
 		793B1D5822B9941900856584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793B1D5622B9941900856584 /* Main.storyboard */; };
 		793B1D5A22B9941B00856584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 793B1D5922B9941B00856584 /* Assets.xcassets */; };
 		793B1D5D22B9941B00856584 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793B1D5B22B9941B00856584 /* LaunchScreen.storyboard */; };
-		793B1D6822B9941C00856584 /* videocapture_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793B1D6722B9941C00856584 /* videocapture_testTests.swift */; };
-		793B1D7322B9941C00856584 /* videocapture_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793B1D7222B9941C00856584 /* videocapture_testUITests.swift */; };
+		793B1D6822B9941C00856584 /* cv_templateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793B1D6722B9941C00856584 /* cv_templateTests.swift */; };
+		793B1D7322B9941C00856584 /* cv_templateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793B1D7222B9941C00856584 /* cv_templateUITests.swift */; };
 		793B1D8122B9958C00856584 /* FrameExtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793B1D8022B9958C00856584 /* FrameExtraction.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,18 +35,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		793B1D4F22B9941900856584 /* videocapture-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "videocapture-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		793B1D4F22B9941900856584 /* cv-template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cv-template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		793B1D5222B9941900856584 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		793B1D5422B9941900856584 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		793B1D5722B9941900856584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		793B1D5922B9941B00856584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		793B1D5C22B9941B00856584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		793B1D5E22B9941B00856584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		793B1D6322B9941C00856584 /* videocapture-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "videocapture-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		793B1D6722B9941C00856584 /* videocapture_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videocapture_testTests.swift; sourceTree = "<group>"; };
+		793B1D6322B9941C00856584 /* cv-templateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cv-templateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		793B1D6722B9941C00856584 /* cv_templateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cv_templateTests.swift; sourceTree = "<group>"; };
 		793B1D6922B9941C00856584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		793B1D6E22B9941C00856584 /* videocapture-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "videocapture-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		793B1D7222B9941C00856584 /* videocapture_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videocapture_testUITests.swift; sourceTree = "<group>"; };
+		793B1D6E22B9941C00856584 /* cv-templateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cv-templateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		793B1D7222B9941C00856584 /* cv_templateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cv_templateUITests.swift; sourceTree = "<group>"; };
 		793B1D7422B9941C00856584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		793B1D8022B9958C00856584 /* FrameExtraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameExtraction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,9 +79,9 @@
 		793B1D4622B9941900856584 = {
 			isa = PBXGroup;
 			children = (
-				793B1D5122B9941900856584 /* videocapture-test */,
-				793B1D6622B9941C00856584 /* videocapture-testTests */,
-				793B1D7122B9941C00856584 /* videocapture-testUITests */,
+				793B1D5122B9941900856584 /* cv-template */,
+				793B1D6622B9941C00856584 /* cv-templateTests */,
+				793B1D7122B9941C00856584 /* cv-templateUITests */,
 				793B1D5022B9941900856584 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		793B1D5022B9941900856584 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				793B1D4F22B9941900856584 /* videocapture-test.app */,
-				793B1D6322B9941C00856584 /* videocapture-testTests.xctest */,
-				793B1D6E22B9941C00856584 /* videocapture-testUITests.xctest */,
+				793B1D4F22B9941900856584 /* cv-template.app */,
+				793B1D6322B9941C00856584 /* cv-templateTests.xctest */,
+				793B1D6E22B9941C00856584 /* cv-templateUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		793B1D5122B9941900856584 /* videocapture-test */ = {
+		793B1D5122B9941900856584 /* cv-template */ = {
 			isa = PBXGroup;
 			children = (
 				793B1D5222B9941900856584 /* AppDelegate.swift */,
@@ -107,33 +107,33 @@
 				793B1D5B22B9941B00856584 /* LaunchScreen.storyboard */,
 				793B1D5E22B9941B00856584 /* Info.plist */,
 			);
-			path = "videocapture-test";
+			path = "cv-template";
 			sourceTree = "<group>";
 		};
-		793B1D6622B9941C00856584 /* videocapture-testTests */ = {
+		793B1D6622B9941C00856584 /* cv-templateTests */ = {
 			isa = PBXGroup;
 			children = (
-				793B1D6722B9941C00856584 /* videocapture_testTests.swift */,
+				793B1D6722B9941C00856584 /* cv_templateTests.swift */,
 				793B1D6922B9941C00856584 /* Info.plist */,
 			);
-			path = "videocapture-testTests";
+			path = "cv-templateTests";
 			sourceTree = "<group>";
 		};
-		793B1D7122B9941C00856584 /* videocapture-testUITests */ = {
+		793B1D7122B9941C00856584 /* cv-templateUITests */ = {
 			isa = PBXGroup;
 			children = (
-				793B1D7222B9941C00856584 /* videocapture_testUITests.swift */,
+				793B1D7222B9941C00856584 /* cv_templateUITests.swift */,
 				793B1D7422B9941C00856584 /* Info.plist */,
 			);
-			path = "videocapture-testUITests";
+			path = "cv-templateUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		793B1D4E22B9941900856584 /* videocapture-test */ = {
+		793B1D4E22B9941900856584 /* cv-template */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 793B1D7722B9941C00856584 /* Build configuration list for PBXNativeTarget "videocapture-test" */;
+			buildConfigurationList = 793B1D7722B9941C00856584 /* Build configuration list for PBXNativeTarget "cv-template" */;
 			buildPhases = (
 				793B1D4B22B9941900856584 /* Sources */,
 				793B1D4C22B9941900856584 /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = "videocapture-test";
+			name = "cv-template";
 			productName = "videocapture-test";
-			productReference = 793B1D4F22B9941900856584 /* videocapture-test.app */;
+			productReference = 793B1D4F22B9941900856584 /* cv-template.app */;
 			productType = "com.apple.product-type.application";
 		};
-		793B1D6222B9941C00856584 /* videocapture-testTests */ = {
+		793B1D6222B9941C00856584 /* cv-templateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 793B1D7A22B9941C00856584 /* Build configuration list for PBXNativeTarget "videocapture-testTests" */;
+			buildConfigurationList = 793B1D7A22B9941C00856584 /* Build configuration list for PBXNativeTarget "cv-templateTests" */;
 			buildPhases = (
 				793B1D5F22B9941C00856584 /* Sources */,
 				793B1D6022B9941C00856584 /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				793B1D6522B9941C00856584 /* PBXTargetDependency */,
 			);
-			name = "videocapture-testTests";
+			name = "cv-templateTests";
 			productName = "videocapture-testTests";
-			productReference = 793B1D6322B9941C00856584 /* videocapture-testTests.xctest */;
+			productReference = 793B1D6322B9941C00856584 /* cv-templateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		793B1D6D22B9941C00856584 /* videocapture-testUITests */ = {
+		793B1D6D22B9941C00856584 /* cv-templateUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 793B1D7D22B9941C00856584 /* Build configuration list for PBXNativeTarget "videocapture-testUITests" */;
+			buildConfigurationList = 793B1D7D22B9941C00856584 /* Build configuration list for PBXNativeTarget "cv-templateUITests" */;
 			buildPhases = (
 				793B1D6A22B9941C00856584 /* Sources */,
 				793B1D6B22B9941C00856584 /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				793B1D7022B9941C00856584 /* PBXTargetDependency */,
 			);
-			name = "videocapture-testUITests";
+			name = "cv-templateUITests";
 			productName = "videocapture-testUITests";
-			productReference = 793B1D6E22B9941C00856584 /* videocapture-testUITests.xctest */;
+			productReference = 793B1D6E22B9941C00856584 /* cv-templateUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 793B1D4A22B9941900856584 /* Build configuration list for PBXProject "videocapture-test" */;
+			buildConfigurationList = 793B1D4A22B9941900856584 /* Build configuration list for PBXProject "cv-template" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,9 +221,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				793B1D4E22B9941900856584 /* videocapture-test */,
-				793B1D6222B9941C00856584 /* videocapture-testTests */,
-				793B1D6D22B9941C00856584 /* videocapture-testUITests */,
+				793B1D4E22B9941900856584 /* cv-template */,
+				793B1D6222B9941C00856584 /* cv-templateTests */,
+				793B1D6D22B9941C00856584 /* cv-templateUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				793B1D6822B9941C00856584 /* videocapture_testTests.swift in Sources */,
+				793B1D6822B9941C00856584 /* cv_templateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				793B1D7322B9941C00856584 /* videocapture_testUITests.swift in Sources */,
+				793B1D7322B9941C00856584 /* cv_templateUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,12 +287,12 @@
 /* Begin PBXTargetDependency section */
 		793B1D6522B9941C00856584 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 793B1D4E22B9941900856584 /* videocapture-test */;
+			target = 793B1D4E22B9941900856584 /* cv-template */;
 			targetProxy = 793B1D6422B9941C00856584 /* PBXContainerItemProxy */;
 		};
 		793B1D7022B9941C00856584 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 793B1D4E22B9941900856584 /* videocapture-test */;
+			target = 793B1D4E22B9941900856584 /* cv-template */;
 			targetProxy = 793B1D6F22B9941C00856584 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -443,13 +443,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9RXX64BRA7;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "videocapture-test/Info.plist";
+				INFOPLIST_FILE = "cv-template/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "twentybn.videocapture-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "twentybn.cv-template";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -466,13 +466,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9RXX64BRA7;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "videocapture-test/Info.plist";
+				INFOPLIST_FILE = "cv-template/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "twentybn.videocapture-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "twentybn.cv-template";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
@@ -496,7 +496,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/videocapture-test.app/videocapture-test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cv-template.app/cv-template";
 			};
 			name = Debug;
 		};
@@ -516,7 +516,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/videocapture-test.app/videocapture-test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cv-template.app/cv-template";
 			};
 			name = Release;
 		};
@@ -561,7 +561,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		793B1D4A22B9941900856584 /* Build configuration list for PBXProject "videocapture-test" */ = {
+		793B1D4A22B9941900856584 /* Build configuration list for PBXProject "cv-template" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				793B1D7522B9941C00856584 /* Debug */,
@@ -570,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		793B1D7722B9941C00856584 /* Build configuration list for PBXNativeTarget "videocapture-test" */ = {
+		793B1D7722B9941C00856584 /* Build configuration list for PBXNativeTarget "cv-template" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				793B1D7822B9941C00856584 /* Debug */,
@@ -579,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		793B1D7A22B9941C00856584 /* Build configuration list for PBXNativeTarget "videocapture-testTests" */ = {
+		793B1D7A22B9941C00856584 /* Build configuration list for PBXNativeTarget "cv-templateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				793B1D7B22B9941C00856584 /* Debug */,
@@ -588,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		793B1D7D22B9941C00856584 /* Build configuration list for PBXNativeTarget "videocapture-testUITests" */ = {
+		793B1D7D22B9941C00856584 /* Build configuration list for PBXNativeTarget "cv-templateUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				793B1D7E22B9941C00856584 /* Debug */,

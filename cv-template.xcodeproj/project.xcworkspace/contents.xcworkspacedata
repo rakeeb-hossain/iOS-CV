@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:videocapture-test.xcodeproj">
+      location = "self:/Users/rakeeb/Documents/videocapture-test/cv-template.xcodeproj">
    </FileRef>
 </Workspace>
